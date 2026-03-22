@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = "theshubhamgour/maven-jenkins-demo"
+    IMAGE_NAME = "dion29/maven-jenkins-demo2"
     DOCKERHUB_CREDENTIALS = credentials('DockerHub')
   }
 
